@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>GDG Tucson</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <link rel="import" href="bower_components/iron-icons/iron-icons.html">
+  <link rel="import" href="bower_components/paper-button/paper-button.html">
+  <link rel="import" href="bower_components/paper-card/paper-card.html">
+  <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
+  <link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+  <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body unresolved>
+
+  <paper-drawer-panel>
+    <paper-header-panel drawer>
+      <paper-toolbar>
+        <div>Menu</div>
+      </paper-toolbar>
+      <ul>
+        <li>What is a GDG?</li>
+        <li>Events</li>
+        <li>Resources</li>
+        <li>Google Developers</li>
+        <li>Join us!</li>
+      </ul>
+    </paper-header-panel>
+    <paper-header-panel main>
+      <paper-toolbar>
+        <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+        <div>GDG Tucson</div>
+      </paper-toolbar>
+      <div>
+        <paper-card heading="Google Developer Group Tucson" image="res/logo.jpg">
+          The Google Developer Group Tucson is a community group that shares
+          info about Google services and technologies.
+          <paper-button>Learn more</paper-button>
+        </paper-card>
+      </div>
+    </paper-header-panel>
+  </paper-drawer-panel>
+  
+  <script src="main.js"></script>
+</body>
+</html>

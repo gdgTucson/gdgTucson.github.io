@@ -1,0 +1,17 @@
+{
+  "name": "GdgTucsonSite",
+  "description": "Website for Google Developer Group Tucson, built with Polymer",
+  "homepage": "http://www.gdgtucson.org",
+  "keywords": [
+    "google developers",
+    "developer",
+    "android",
+    "chrome",
+    "web"
+  ],
+  "author": "Dan Stormont",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}
